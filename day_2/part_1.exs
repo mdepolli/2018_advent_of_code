@@ -4,7 +4,7 @@
 # $ iex day_2/part_1.exs
 # iex(1)> Part1.solve("day_2/data.txt")
 #
-# https://adventofcode.com/2018/day/1
+# https://adventofcode.com/2018/day/2
 defmodule Part1 do
   def solve(box_ids) when is_binary(box_ids) do
     unless File.exists?(box_ids), do: raise("File not found")
